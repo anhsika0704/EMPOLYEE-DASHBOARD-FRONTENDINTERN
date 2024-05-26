@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import Header from './components/Header/Header';
-import Sidebar from './components/Sidebar/Sidebar';
-import MainContent from './components/MainContent/MainContent';
 import Footer from './components/Footer/Footer';
+import MainContent from './components/MainContent/MainContent';
+import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
