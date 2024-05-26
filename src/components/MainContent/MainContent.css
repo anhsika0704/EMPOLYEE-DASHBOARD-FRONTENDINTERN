@@ -1,0 +1,72 @@
+.main-content {
+    padding: 20px;
+    margin-right: 220px; /* Adjust this if needed */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: blue;
+    color: white;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    position: relative;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .rank-cell {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rank-cell i {
+    margin-right: 10px;
+    padding-left: 20%;
+  }
+  
+  .rank-cell span {
+    margin-left: 15%; /* Adjust based on desired padding */
+  }
+  
+  .no-icon {
+    display: inline-block;
+    width: 4em; /* Adjust based on the width of the icon */
+    text-align: center;
+    padding-left: 20%;
+  }
+  
+  .changes-cell {
+    display: flex;
+    align-items: center;
+  }
+  
+  .changes-cell .triangle {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    margin-right: 5px; /* Space between triangle and text */
+  }
+  
+  .changes-cell .up {
+    border-bottom: 10px solid green;
+  }
+  
+  .changes-cell .down {
+    border-top: 10px solid red;
+  }
+  
+  /* Specific rule to shift the rank heading to the right */
+  th.rank-heading {
+    padding-left: 7%; /* Adjust this value to move the heading to the right */
+  }
+  

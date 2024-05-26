@@ -1,0 +1,51 @@
+.sidebar {
+    width: 200px;
+    background-color: #fff;
+    text-align: right;
+    color: #0b0b0b;
+    padding: 15px;
+    position: fixed;
+    height: 100%;
+    right: 0;
+    top: 0;
+    transition: transform 0.3s ease;
+    transform: translateX(100%);
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  @media (min-width: 768px) {
+    .sidebar {
+      transform: translateX(0);
+    }
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin: 10px 0;
+  }
+  
+  .datetime {
+    margin-bottom: 20px;
+  }
+  
+  .date, .time {
+    margin-bottom: 5px;
+  }
+  
+  .images {
+    margin-top: 20px;
+  }
+  
+  .images img {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
